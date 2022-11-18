@@ -1,6 +1,6 @@
 {
-  "name": "draft-js-import-html",
-  "version": "1.4.1",
+  "name": "@roam/draft-js-import-html",
+  "version": "1.0.0",
   "description": "DraftJS: Import HTML to ContentState",
   "main": "lib/main.js",
   "module": "esm/main.js",

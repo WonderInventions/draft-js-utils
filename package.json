@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-utils-monorepo",
+  "name": "@roam/draft-js-utils-monorepo",
   "private": true,
   "workspaces": [
     "packages/*"
