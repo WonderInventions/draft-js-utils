@@ -1,6 +1,6 @@
 {
   "name": "@roam/draft-js-export-markdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DraftJS: Export ContentState to Markdown",
   "main": "lib/main.js",
   "module": "esm/main.js",

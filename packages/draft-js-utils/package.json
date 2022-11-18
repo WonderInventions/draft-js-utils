@@ -1,6 +1,6 @@
 {
   "name": "@roam/draft-js-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of utilities for DraftJS",
   "main": "lib/main.js",
   "module": "esm/main.js",

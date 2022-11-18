@@ -1,6 +1,6 @@
 {
   "name": "@roam/synthetic-dom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Synthetic HTML DOM for use with parsing within React-RTE",
   "main": "lib/main.js",
   "module": "esm/main.js",
