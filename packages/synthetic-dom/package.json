@@ -1,6 +1,6 @@
 {
-  "name": "synthetic-dom",
-  "version": "1.4.2",
+  "name": "@roamhq/synthetic-dom",
+  "version": "1.4.3",
   "description": "Synthetic HTML DOM for use with parsing within React-RTE",
   "main": "lib/main.js",
   "module": "esm/main.js",
