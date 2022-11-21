@@ -98,3 +98,7 @@ const js = true
 >> embeds
 {"entityMap":{"0":{"data":{"url":"https://google.com"},"mutability":"MUTABLE","type":"embed"}},"blocks":[{"text":" ","type":"unstyled","depth":0,"inlineStyleRanges":[],"entityRanges":[{"offset":0,"length":1,"key":"0"}],"data":{}}]}
 https://google.com
+
+>> Escape markdown characters in plain text
+{"entityMap":{},"blocks":[{"key":"33nh8","text":"this ** _ text  [text](www.github.com) \\n ~~should~~ be `escaped`","type":"unstyled","depth":0,"inlineStyleRanges":[],"entityRanges":[]}]}
+this \*\* \_ text  \[text\]\(www.github.com\) \\n \~\~should\~\~ be \`escaped\`

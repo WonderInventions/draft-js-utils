@@ -1723,13 +1723,14 @@
 
 "@roamhq/draft-js-import-html@file:/Users/nico/draft-js-utils/packages/draft-js-import-html":
   "resolved" "file:packages/draft-js-import-html"
-  "version" "2.0.3"
+  "version" "2.0.4"
   dependencies:
+    "draft-js-import-element" "npm:@roamhq/draft-js-import-element@^2.0.3"
     "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
 
 "@roamhq/draft-js-import-markdown@file:/Users/nico/draft-js-utils/packages/draft-js-import-markdown":
   "resolved" "file:packages/draft-js-import-markdown"
-  "version" "2.0.3"
+  "version" "2.0.4"
   dependencies:
     "draft-js-import-element" "npm:@roamhq/draft-js-import-element@^2.0.3"
     "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
