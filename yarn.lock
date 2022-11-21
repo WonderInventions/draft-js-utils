@@ -1704,33 +1704,34 @@
 
 "@roamhq/draft-js-export-html@file:/Users/nico/draft-js-utils/packages/draft-js-export-html":
   "resolved" "file:packages/draft-js-export-html"
-  "version" "2.0.2"
+  "version" "2.0.3"
   dependencies:
     "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
 
 "@roamhq/draft-js-export-markdown@file:/Users/nico/draft-js-utils/packages/draft-js-export-markdown":
   "resolved" "file:packages/draft-js-export-markdown"
-  "version" "2.0.2"
+  "version" "2.0.3"
   dependencies:
     "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
 
 "@roamhq/draft-js-import-element@file:/Users/nico/draft-js-utils/packages/draft-js-import-element":
   "resolved" "file:packages/draft-js-import-element"
-  "version" "2.0.2"
+  "version" "2.0.3"
   dependencies:
     "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
     "synthetic-dom" "npm:@roamhq/synthetic-dom@^2.0.1"
 
 "@roamhq/draft-js-import-html@file:/Users/nico/draft-js-utils/packages/draft-js-import-html":
   "resolved" "file:packages/draft-js-import-html"
-  "version" "2.0.2"
+  "version" "2.0.3"
   dependencies:
     "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
 
 "@roamhq/draft-js-import-markdown@file:/Users/nico/draft-js-utils/packages/draft-js-import-markdown":
   "resolved" "file:packages/draft-js-import-markdown"
-  "version" "2.0.2"
+  "version" "2.0.3"
   dependencies:
+    "draft-js-import-element" "npm:@roamhq/draft-js-import-element@^2.0.3"
     "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
     "synthetic-dom" "npm:@roamhq/synthetic-dom@^2.0.1"
 
@@ -3085,6 +3086,14 @@
   "version" "5.3.0"
   dependencies:
     "is-obj" "^2.0.0"
+
+"draft-js-import-element@npm:@roamhq/draft-js-import-element@^2.0.3":
+  "integrity" "sha512-DKgORtS5Bvn2It1V/BgeSjtJXGm2fZjVB6cihRNKMeTwHHO9ElrGDpY3tRt0F/pwMnSL3ufTNQCa8VGmscsWkg=="
+  "resolved" "https://registry.npmjs.org/@roamhq/draft-js-import-element/-/draft-js-import-element-2.0.3.tgz"
+  "version" "2.0.3"
+  dependencies:
+    "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
+    "synthetic-dom" "npm:@roamhq/synthetic-dom@^2.0.1"
 
 "draft-js-utils@npm:@roamhq/draft-js-utils@^2.0.1":
   "integrity" "sha512-tfraHqm9v8cFJ8/L+Xbi5amq3sn15dH5vw7cdDDOisvLgifOFm0FEdkUgR4sLnrNWKOOPs7uAL4Klu3hi/a9XA=="
