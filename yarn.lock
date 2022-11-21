@@ -1704,41 +1704,41 @@
 
 "@roamhq/draft-js-export-html@file:/Users/nico/draft-js-utils/packages/draft-js-export-html":
   "resolved" "file:packages/draft-js-export-html"
-  "version" "2.0.1"
+  "version" "2.0.2"
   dependencies:
-    "@roamhq/draft-js-utils" "^2.0.1"
+    "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
 
 "@roamhq/draft-js-export-markdown@file:/Users/nico/draft-js-utils/packages/draft-js-export-markdown":
   "resolved" "file:packages/draft-js-export-markdown"
-  "version" "2.0.1"
+  "version" "2.0.2"
   dependencies:
-    "@roamhq/draft-js-utils" "^2.0.1"
+    "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
 
 "@roamhq/draft-js-import-element@file:/Users/nico/draft-js-utils/packages/draft-js-import-element":
   "resolved" "file:packages/draft-js-import-element"
-  "version" "2.0.1"
+  "version" "2.0.2"
   dependencies:
-    "@roamhq/draft-js-utils" "^2.0.1"
-    "@roamhq/synthetic-dom" "^2.0.1"
+    "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
+    "synthetic-dom" "npm:@roamhq/synthetic-dom@^2.0.1"
 
 "@roamhq/draft-js-import-html@file:/Users/nico/draft-js-utils/packages/draft-js-import-html":
   "resolved" "file:packages/draft-js-import-html"
-  "version" "2.0.1"
+  "version" "2.0.2"
   dependencies:
-    "@roamhq/draft-js-utils" "^2.0.1"
+    "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
 
 "@roamhq/draft-js-import-markdown@file:/Users/nico/draft-js-utils/packages/draft-js-import-markdown":
   "resolved" "file:packages/draft-js-import-markdown"
-  "version" "2.0.1"
+  "version" "2.0.2"
   dependencies:
-    "@roamhq/draft-js-utils" "^2.0.1"
-    "@roamhq/synthetic-dom" "^2.0.1"
+    "draft-js-utils" "npm:@roamhq/draft-js-utils@^2.0.1"
+    "synthetic-dom" "npm:@roamhq/synthetic-dom@^2.0.1"
 
-"@roamhq/draft-js-utils@^2.0.1", "@roamhq/draft-js-utils@file:/Users/nico/draft-js-utils/packages/draft-js-utils":
+"@roamhq/draft-js-utils@file:/Users/nico/draft-js-utils/packages/draft-js-utils":
   "resolved" "file:packages/draft-js-utils"
   "version" "2.0.1"
 
-"@roamhq/synthetic-dom@^2.0.1", "@roamhq/synthetic-dom@file:/Users/nico/draft-js-utils/packages/synthetic-dom":
+"@roamhq/synthetic-dom@file:/Users/nico/draft-js-utils/packages/synthetic-dom":
   "resolved" "file:packages/synthetic-dom"
   "version" "2.0.1"
 
@@ -3085,6 +3085,11 @@
   "version" "5.3.0"
   dependencies:
     "is-obj" "^2.0.0"
+
+"draft-js-utils@npm:@roamhq/draft-js-utils@^2.0.1":
+  "integrity" "sha512-tfraHqm9v8cFJ8/L+Xbi5amq3sn15dH5vw7cdDDOisvLgifOFm0FEdkUgR4sLnrNWKOOPs7uAL4Klu3hi/a9XA=="
+  "resolved" "https://registry.npmjs.org/@roamhq/draft-js-utils/-/draft-js-utils-2.0.1.tgz"
+  "version" "2.0.1"
 
 "draft-js@^0.11.0", "draft-js@>=0.10.0":
   "integrity" "sha512-kNVaI3rLiNUSXoCuc5OxOQfzvtFEsOhRgWVHz5nU4b1APvYiOnY5Y2H76ZmB5990//cZysul09FbnzP+YAKNJA=="
@@ -7390,6 +7395,11 @@
   "integrity" "sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw=="
   "resolved" "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz"
   "version" "3.2.4"
+
+"synthetic-dom@npm:@roamhq/synthetic-dom@^2.0.1":
+  "integrity" "sha512-1oByzzJx1qiQ57op9o2KJbwzdmhGF5cKxv6OGDC+hHmLNkOhmp6mi7KGLKl8KLzcOj7wz4LxVIe39BOTNp2rRQ=="
+  "resolved" "https://registry.npmjs.org/@roamhq/synthetic-dom/-/synthetic-dom-2.0.1.tgz"
+  "version" "2.0.1"
 
 "table@^4.0.1":
   "resolved" "https://registry.npmjs.org/table/-/table-4.0.1.tgz"
