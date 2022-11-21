@@ -1,6 +1,6 @@
 {
   "name": "@roamhq/draft-js-import-element",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "DraftJS: Import Element to ContentState",
   "main": "lib/main.js",
   "module": "esm/main.js",
