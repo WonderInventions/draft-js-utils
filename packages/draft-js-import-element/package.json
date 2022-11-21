@@ -42,5 +42,6 @@
   "bugs": {
     "url": "https://github.com/sstur/draft-js-utils/issues"
   },
-  "homepage": "https://github.com/sstur/draft-js-utils/blob/master/packages/draft-js-import-element/README.md"
+  "homepage": "https://github.com/sstur/draft-js-utils/blob/master/packages/draft-js-import-element/README.md",
+  "gitHead": "ef6c6d25adcf560d5676ea97d22a814d1acad649"
 }
