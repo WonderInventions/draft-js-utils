@@ -1,6 +1,6 @@
 {
   "name": "@roamhq/draft-js-export-html",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "DraftJS: Export ContentState to HTML",
   "main": "lib/main.js",
   "module": "esm/main.js",
