@@ -101,4 +101,4 @@ https://google.com
 
 >> Escape markdown characters in plain text
 {"entityMap":{},"blocks":[{"key":"33nh8","text":"this ** _ text  [text](www.github.com) \\n ~~should~~ be `escaped`","type":"unstyled","depth":0,"inlineStyleRanges":[],"entityRanges":[]}]}
-this \*\* \_ text  \[text\]\(www.github.com\) \\n \~\~should\~\~ be \`escaped\`
+this \*\* \_ text  \[text\](www.github.com) \\n \~\~should\~\~ be \`escaped\`
