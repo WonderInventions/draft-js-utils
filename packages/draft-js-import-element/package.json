@@ -18,8 +18,8 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "@roamhq/draft-js-utils": "^2.0.1",
-    "@roamhq/synthetic-dom": "^2.0.1"
+    "draft-js-utils":  "npm:@roamhq/draft-js-utils@^2.0.1",
+    "synthetic-dom": "npm:@roamhq/synthetic-dom@^2.0.1"
   },
   "peerDependencies": {
     "draft-js": ">=0.10.0",
