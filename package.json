@@ -1,6 +1,8 @@
 {
-  "name": "draft-js-utils-monorepo",
-  "private": true,
+  "name": "@roamhq/draft-js-utils-monorepo",
+  "publishConfig": {
+    "access": "public"
+  },
   "workspaces": [
     "packages/*"
   ],

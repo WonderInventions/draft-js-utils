@@ -1,6 +1,9 @@
 {
   "name": "@roamhq/synthetic-dom",
-  "version": "1.4.4",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.9.9",
   "description": "Synthetic HTML DOM for use with parsing within React-RTE",
   "main": "lib/main.js",
   "module": "esm/main.js",
@@ -26,5 +29,5 @@
     "url": "https://github.com/sstur/draft-js-utils/issues"
   },
   "homepage": "https://github.com/sstur/draft-js-utils/blob/master/packages/synthetic-dom/README.md",
-  "gitHead": "ef6c6d25adcf560d5676ea97d22a814d1acad649"
+  "gitHead": "32ac2a0ed8c70c7e380107e4cf2b4ce3edb60302"
 }
