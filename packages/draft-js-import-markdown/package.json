@@ -1,6 +1,6 @@
 {
-  "name": "draft-js-import-markdown",
-  "version": "1.4.2",
+  "name": "@roamhq/draft-js-import-markdown",
+  "version": "1.4.3",
   "description": "DraftJS: Import Markdown to ContentState",
   "main": "lib/main.js",
   "module": "esm/main.js",
