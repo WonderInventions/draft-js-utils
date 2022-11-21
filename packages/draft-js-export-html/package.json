@@ -1,6 +1,6 @@
 {
   "name": "draft-js-export-html",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "DraftJS: Export ContentState to HTML",
   "main": "lib/main.js",
   "module": "esm/main.js",
@@ -17,7 +17,7 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "draft-js-utils": "^1.4.0"
+    "draft-js-utils": "^1.4.2"
   },
   "peerDependencies": {
     "draft-js": ">=0.10.0",
