@@ -1,6 +1,9 @@
 {
   "name": "@roamhq/draft-js-import-markdown",
-  "version": "1.4.4",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.9.9",
   "description": "DraftJS: Import Markdown to ContentState",
   "main": "lib/main.js",
   "module": "esm/main.js",
@@ -33,5 +36,5 @@
     "url": "https://github.com/sstur/draft-js-utils/issues"
   },
   "homepage": "https://github.com/sstur/draft-js-utils/blob/master/packages/draft-js-import-markdown/README.md",
-  "gitHead": "ef6c6d25adcf560d5676ea97d22a814d1acad649"
+  "gitHead": "32ac2a0ed8c70c7e380107e4cf2b4ce3edb60302"
 }
