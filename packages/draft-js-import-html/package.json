@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "DraftJS: Import HTML to ContentState",
   "main": "lib/main.js",
   "module": "esm/main.js",
