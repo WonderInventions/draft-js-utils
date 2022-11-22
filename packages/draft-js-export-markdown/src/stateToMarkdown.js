@@ -286,7 +286,7 @@ function canHaveDepth(blockType: any): boolean {
 }
 
 function encodeContent(text) {
-  return text.replace(/[*_`\[\]~\\]/g, '\\$&');
+  return text.replace(/[*_`\[\]~\\#.]/g, '\\$&');
 }
 
 function encodeCode(text) {
