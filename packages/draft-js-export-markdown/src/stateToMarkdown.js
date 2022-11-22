@@ -224,10 +224,10 @@ class MarkupGenerator {
             const leftPad = contentLength - content.length;
             content = content.trimRight();
             const rightPad = contentLength - content.length - leftPad;
-if (!content.length) {
-  // Return the original text if there is nothing left after trimming.
-  return text;
-}
+            if (!content.length) {
+              // Return the original text if there is nothing left after trimming.
+              return text;
+            }
 
             // NOTE: We attempt some basic character escaping here, although
             // I don't know if escape sequences are really valid in markdown,
@@ -236,15 +236,18 @@ if (!content.length) {
               return '`' + encodeCode(content) + '`';
             }
             content = encodeContent(content);
-            if (style.has(BOLD)) {
+
+            if (style.has(BOLD) && style.has(ITALIC)) {
+              content = `___${content}___`;
+            } else if (style.has(BOLD)) {
               content = `**${content}**`;
+            } else if (style.has(ITALIC)) {
+              content = `*${content}*`;
             }
+
             if (style.has(UNDERLINE)) {
               // TODO: encode `+`?
               content = `++${content}++`;
-            }
-            if (style.has(ITALIC)) {
-              content = `*${content}*`;
             }
             if (style.has(STRIKETHROUGH)) {
               // TODO: encode `~`?
