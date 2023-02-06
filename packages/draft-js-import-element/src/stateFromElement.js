@@ -467,14 +467,18 @@ function collapseWhiteSpace(
   ({text, characterMeta} = trimLeadingSpace(text, characterMeta));
   ({text, characterMeta} = trimTrailingSpace(text, characterMeta));
   let i = text.length;
+  let characterMetaArr = characterMeta.toArray();
   while (i--) {
     if (text.charAt(i) === ' ' && text.charAt(i - 1) === ' ') {
       text = text.slice(0, i) + text.slice(i + 1);
-      characterMeta = characterMeta
+      characterMetaArr = characterMetaArr
         .slice(0, i)
-        .concat(characterMeta.slice(i + 1));
+        .concat(characterMetaArr.slice(i + 1));
     }
   }
+
+  characterMeta = Seq(characterMetaArr);
+
   // There could still be one space on either side of a softbreak.
   ({text, characterMeta} = replaceTextWithMeta(
     {text, characterMeta},
@@ -503,12 +507,12 @@ function canHaveDepth(blockType: string): boolean {
 
 function concatFragments(fragments: Array<TextFragment>): TextFragment {
   let text = '';
-  let characterMeta: CharacterMetaSeq = Seq();
+  let characterMetaArr = [];
   fragments.forEach((textFragment: TextFragment) => {
     text = text + textFragment.text;
-    characterMeta = characterMeta.concat(textFragment.characterMeta);
+    characterMetaArr.push(...textFragment.characterMeta.toArray());
   });
-  return {text, characterMeta};
+  return {text, characterMeta: Seq(characterMetaArr)};
 }
 
 function addStyleFromTagName(
