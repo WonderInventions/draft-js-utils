@@ -36,4 +36,17 @@ describe('stateToMarkdown', () => {
       expect(stateToMarkdown(contentState, options)).toBe(markdown + '\n');
     });
   });
+
+  it(`should render leading spaces in a block as non-breaking`, () => {
+    const state = {
+      entityMap: {},
+      blocks: [
+        {key: '99n0j', text: '    asd f', type: 'unstyled', depth: 0, inlineStyleRanges: [], entityRanges: []},
+        {key: '88f0j', text: '    hello', type: 'unstyled', depth: 0, inlineStyleRanges: [], entityRanges: []}
+      ],
+    };
+    let contentState = convertFromRaw(state);
+    const expected = `\xa0\xa0\xa0\xa0asd f\n\n\xa0\xa0\xa0\xa0hello\n`;
+    expect(stateToMarkdown(contentState)).toBe(expected);
+  });
 });

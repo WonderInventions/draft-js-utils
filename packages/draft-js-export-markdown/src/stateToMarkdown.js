@@ -205,6 +205,7 @@ class MarkupGenerator {
     }
     let charMetaList = block.getCharacterList();
     let entityPieces = getEntityRanges(text, charMetaList);
+    let first = true;
     return entityPieces
       .map(([entityKey, stylePieces]) => {
         let content = stylePieces
@@ -253,7 +254,10 @@ class MarkupGenerator {
               // TODO: encode `~`?
               content = `~~${content}~~`;
             }
-            content = content.padStart(content.length + leftPad);
+
+            // Use non-breaking spaces for the first left pad to avoid unintentional code blocks
+            content = content.padStart(content.length + leftPad, first ? '\xa0' : undefined);
+            first = false;
             return content.padEnd(content.length + rightPad);
           })
           .join('');
